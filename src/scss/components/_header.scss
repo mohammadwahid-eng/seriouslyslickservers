@@ -1,0 +1,30 @@
+.header {
+	&_top {
+		&__brand {
+			display: inline-block;
+		}
+	}
+	&_bottom {
+
+	}
+
+	.navbar {
+		&-nav {
+			.nav-link {
+				text-decoration: underline;
+				padding-top: .825rem;
+				padding-bottom: .825rem;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+		&-toggler {
+			margin-top: .5rem;
+			margin-bottom: .5rem;
+			&:focus {
+				@include box-shadow(none);
+			}
+		}
+	}
+}
