@@ -1,0 +1,33 @@
+{
+  "name": "seriouslyslickservers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev:serve": "nodemon app.js",
+    "dev:watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": "Mohammad Wahid",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.8.4",
+    "bootstrap": "^5.0.0-beta2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@babel/preset-env": "^7.13.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.0",
+    "mini-css-extract-plugin": "^1.3.9",
+    "nodemon": "^2.0.7",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
