@@ -3,6 +3,13 @@
 	height: $font-size-base;
 }
 
-
+.btn {
+	&-danger {
+		color: white;
+		&:hover {
+			color: white;
+		}
+	}
+}
 
 

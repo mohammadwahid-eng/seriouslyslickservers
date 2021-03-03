@@ -1,0 +1,14 @@
+.card {
+	&-header,
+	&-footer {
+		background-color: #1b1b1b;
+		color: white;
+	}
+
+	&-footer {
+		p,
+		h2 {
+			line-height: 1;
+		}
+	}
+}
