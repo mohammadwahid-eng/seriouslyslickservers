@@ -1,0 +1,30 @@
+.footer {
+	background-color: $dark;
+	&__nav {
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
+		li {
+			&:first-child {
+				font-weight: bold;
+			}
+			& + li {
+				margin-top: 5px;
+			}
+			color: #707070;
+			font-size: .875rem;
+			a {
+				color: #cccccc;
+				text-decoration: none;
+				&:hover {
+					color: white;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
+	&__copyright {
+
+	}
+}
