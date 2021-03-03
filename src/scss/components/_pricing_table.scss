@@ -1,0 +1,51 @@
+.pricing_table_group {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	.pricing_table {
+		@include media-breakpoint-up(lg) {
+			width: calc(100%/3);
+		}
+	}
+}
+
+.pricing_table {
+	background-color: white;
+	@include transition(.4s ease-in-out);
+	&:hover {
+		background-color: #181339;
+		color: white;
+		.pricing_table__package_cpu {
+			color: #35d7bc;
+		}
+		li {
+			svg {
+				fill: white;
+			}
+		}
+	}
+	border: 2px solid #ebebeb;
+	padding: 3rem;
+	&__package_name {}
+	&__package_cpu {
+		color: $primary;
+		@include transition(.4s ease-in-out);
+	}
+	&__package_price {}
+	ul {
+		list-style: none;
+		li {
+			position: relative;
+			padding-left: 2rem;
+			svg {
+				@include transition(.4s ease-in-out);
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+			& + li {
+				margin-top: .5rem;
+			}
+		}
+	}
+}
