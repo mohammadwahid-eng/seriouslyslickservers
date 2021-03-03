@@ -1,0 +1,51 @@
+<%- include("../partials/header.ejs") %>
+<div class="container py-5">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Looking to increase your dietary health?</strong></h5>
+                    <p class="card-text">Then browse our products using the <a href="#" class="link-primary">Products</a> tab or <a href="#" class="link-primary">Nutrition Health</a> tab<br>or to find out more details please call us on or <a href="#" class="link-primary">get in touch</a> through our contact page.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <h2 class="mb-4"><strong>Contact</strong></h2>
+            <form class="row g-3 mb-5">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email Address" required>
+                </div>
+                <div class="col-12">
+                    <label for="telephone" class="form-label">Telephone</label>
+                    <input type="text" class="form-control" id="telephone" placeholder="Your Telephone Number" required>
+                </div>
+                <div class="col-12">
+                    <label for="supplements" class="form-label">What supplements do you take/are interested in?</label>
+                    <textarea name="supplements" id="supplements" class="form-control" placeholder="Supplement(s) currently taking/interested in" rows="4" required></textarea>
+                </div>
+                <div class="col-12">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea name="message" id="message" class="form-control" placeholder="Message" rows="4" required></textarea>
+                </div>
+                <div class="col-12">
+                    <label for="hear_about_us" class="form-label">Where did you hear about us?</label>
+                    <input type="text" class="form-control" id="hear_about_us" required>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-danger px-4 py-2">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<%- include("../partials/footer.ejs") %>

@@ -1,3 +1,8 @@
+.h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
 .feather {
 	width: $font-size-base;
 	height: $font-size-base;
@@ -12,4 +17,21 @@
 	}
 }
 
+.form-label {
+	font-weight: bold;
+}
 
+.table {
+	&.align-middle {
+		th {
+			vertical-align: middle;
+		}
+	}
+}
+
+.blog-post {
+	a:not(.btn) {
+		text-decoration: none;
+		color: inherit;
+	}
+}
